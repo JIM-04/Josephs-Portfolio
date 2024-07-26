@@ -1,0 +1,24 @@
+/* src/components/HeroSection.css */
+.hero-section {
+    background-color: #333; /* Unified background color */
+    color: #e0e0e0; /* Text color */
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 86px;
+    color: #e0e0e0; /* Text color */
+    margin: 0;
+  }
+  
+  .hero-description {
+    font-size: 24px;
+    color: #d0d0d0; /* Slightly lighter gray for readability */
+    margin-top: 20px;
+  }
+  
+  .highlight {
+    color: #00FFF0; /* Highlight color */
+  }
+  

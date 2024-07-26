@@ -1,0 +1,16 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=NTR:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a; /* Dark blue/gray color */
+  color: #fff; /* Text color to contrast with the background */
+  font-family: 'NTR', sans-serif; /* Apply the NTR font */
+}
+
+#root {
+  min-height: 100vh; /* Ensure the root element takes up the full viewport height */
+  display: flex;
+  flex-direction: column;
+}
