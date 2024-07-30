@@ -1,14 +1,14 @@
 // src/components/Header.js
 import React from 'react';
 import './Header.css'; // Import the CSS file
-import githubIcon from '../assets/icons/github.png'; // Import your GitHub icon
-import linkedinIcon from '../assets/icons/linkedin.png'; // Import your LinkedIn icon
-import emailIcon from '../assets/icons/email.png'; // Import your email icon
+import githubIcon from '../assets/icons/github.png'; // Import GitHub icon
+import linkedinIcon from '../assets/icons/linkedin.png'; // Import LinkedIn icon
+import emailIcon from '../assets/icons/email.png'; // Import Email icon
 
 const Header = () => {
   return (
     <header>
-      <div className="logo">Joseph Miller</div>
+      <div className="logo">Joseph</div>
       <nav className="navbar">
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
@@ -16,7 +16,7 @@ const Header = () => {
         <a href="#contact">Contact</a>
       </nav>
       <div className="social-icons">
-        <a href="mailto:jojomill04@gmail.com" target="_blank" rel="noopener noreferrer">
+        <a href="mailto:your-email@example.com" target="_blank" rel="noopener noreferrer">
           <img src={emailIcon} alt="Email" className="social-icon" />
         </a>
         <a href="https://github.com/JIM-04" target="_blank" rel="noopener noreferrer">

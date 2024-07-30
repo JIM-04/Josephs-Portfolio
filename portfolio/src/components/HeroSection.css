@@ -9,13 +9,13 @@
   .hero-content h1 {
     font-size: 86px;
     color: #e0e0e0; /* Text color */
-    margin: 0;
+    margin-top: 400px;
   }
   
   .hero-description {
-    font-size: 24px;
+    font-size: 36px;
     color: #d0d0d0; /* Slightly lighter gray for readability */
-    margin-top: 20px;
+    margin-top: 55px;
   }
   
   .highlight {

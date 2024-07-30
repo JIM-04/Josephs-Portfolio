@@ -1,19 +1,22 @@
 // src/components/ProjectsSection.js
 import React, { useState } from 'react';
 import './ProjectsSection.css';
+import project1Image from '../assets/project1.png'; // Import the image
 
 const projects = [
   {
     id: 1,
-    title: 'Project 1',
-    description: 'Description of project 1.',
-    image: 'path/to/project1-image.jpg'
+    title: 'International Travel Planner',
+    description: 'A web application to search for hotels and convert currency.',
+    image: project1Image, // Use the imported image
+    link: 'https://travisjblack.github.io/International-Travel-Planner/' // Add the project link
   },
   {
     id: 2,
     title: 'Project 2',
     description: 'Description of project 2.',
-    image: 'path/to/project2-image.jpg'
+    image: 'path/to/another-image.jpg', // Replace with the actual path to your other project image
+    link: '#'
   },
   // Add more projects here
 ];
@@ -37,7 +40,9 @@ const ProjectsSection = () => {
           <div className="carousel-inner" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
             {projects.map((project) => (
               <div key={project.id} className="carousel-item">
-                <img src={project.image} alt={project.title} className="carousel-image" />
+                <a href={project.link} target="_blank" rel="noopener noreferrer" className="image-link">
+                  <img src={project.image} alt={project.title} className="carousel-image" />
+                </a>
                 <div className="carousel-info">
                   <h2>{project.title}</h2>
                   <p>{project.description}</p>
